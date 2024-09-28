@@ -12,4 +12,4 @@ valorPago = Convert.ToDecimal(Console.ReadLine());
 
 valorTroco = valorPago - valorCompra;
 
-Console.WriteLine($"\nTroco: {valorTroco:C}");
+Console.WriteLine($"\nTroco: {valorTroco:C2}");
